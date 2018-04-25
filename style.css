@@ -11,7 +11,14 @@ header h1 {
 	padding: 20px;
 }
 
-header h2, h3 {
+header h2 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	padding: 15px;
+}
+
+header h3 {
 	font-size: 30px;
 	text-align: center;
 	font-weight: 700;
