@@ -4,25 +4,27 @@ body {
 	color: #fff;
 }
 
-header h1 {
+ h1 {
 	text-align: center;
 	font-size: 40px;
 	font-weight: 700;
 	padding: 20px;
 }
 
-header h2 {
-	font-size: 30px;
+ h3 {
+ 	margin-top: 50px;
+	font-size: 20px;
 	text-align: center;
 	font-weight: 700;
 	padding: 15px;
 }
 
-header h3 {
-	font-size: 30px;
+h2 {
+	font-size: 25px;
 	text-align: center;
 	font-weight: 700;
 	padding: 15px;
+	margin-top: 150px;
 }
 
 a {
@@ -58,11 +60,11 @@ a {
 .trigger {
 	font-weight: 700;
 	cursor: pointer;
-	margin: 300px auto 20px auto;
+	margin: 50px auto 20px auto;
 	display: block;
 	width: 350px;
-	padding: 20px;
-	font-size: 25px;
+	padding: 15px;
+	font-size: 20px;
 	background: inherit;
 	border-radius: 5px;
 	border: 2px solid #fff;
