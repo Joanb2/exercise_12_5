@@ -25,9 +25,10 @@ var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&fi
 function getQuote() {
 	$.ajax({
 	    dataType: "json",
-	    url: quoteUrl,
+	    url: quoteUrl + prefix,
 	    data: myweb,
-	    success: createTweet
+	    success: createTweet,
+	    $.ajaxSetup({ cache: false });
 	});
 }
 
