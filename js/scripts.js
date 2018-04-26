@@ -27,9 +27,10 @@ function getQuote() {
 	    dataType: "json",
 	    url: quoteUrl + prefix,
 	    data: myweb,
-	    success: createTweet,
-	    $.ajaxSetup({ cache: false });
+	    success: createTweet
 	});
+
+	$.ajaxSetup({ cache: false });
 }
 
 function createTweet(input) {
