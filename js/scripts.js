@@ -25,7 +25,7 @@ var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&fi
 function getQuote() {
 	$.ajax({
 	    dataType: "json",
-	    url: quoteUrl + prefix,
+	    url: prefix + quoteUrl,
 	    data: myweb,
 	    success: createTweet
 	});
