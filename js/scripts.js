@@ -34,6 +34,8 @@ function getQuote() {
 	$.ajaxSetup({ cache: false });
 }
 
+ if ($('input').val() < 1) {};
+
 function createTweet(input) {
 	var data = input[0];
     var quoteText = $(data.content).text().trim();
